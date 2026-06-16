@@ -23,7 +23,7 @@ stages{
 	stage('Run Application'){
 		steps{
 			sh 'java -jar target/Mymavenapp-1.0-SNAPSHOT.jar'
-'
+
 		}
 	}
 }
