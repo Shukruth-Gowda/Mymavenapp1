@@ -29,10 +29,10 @@ stages{
 }
 post{
 	success{
-		sh 'Build and Depolyment successful!'
+		echo 'Build and Depolyment successful!'
 		}
 	failure{
-		sh 'Build failure'
+		echo 'Build failure'
 		}
 	}
 	
